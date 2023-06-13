@@ -1,0 +1,26 @@
+/* background image */
+/* div{
+    background-image: url(../HTML/images/Download),url(../HTML/images/Download),url(../HTML/images/Download),url(../HTML/images/Download),url(../HTML/images/Download),url(../HTML/images/Download),url(../HTML/images/Download),
+    url(../HTML/images/Download),url(../HTML/images/Download);
+    background-color: lightpink;
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-size: 100px 200px;
+    height:700px;
+    width: 700px;
+    border:5px solid black;
+    border-radius:100px;
+
+    background-position:top left,top center,top right,center,center left,center right,bottom left,bottom center,bottom right;
+
+} */
+/* background origin */
+div{
+    height:400px;
+    width:400px;
+    border:10px dotted rgb(93, 9, 21);
+    background-image: url(../HTML/images/Download);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-color: rgb(87, 158, 158);
+}

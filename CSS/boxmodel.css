@@ -1,0 +1,10 @@
+h1{
+    padding:200px;
+    border-width:30px;
+    border-style: double groove ;
+    border-color: rgb(214, 166, 174) rgb(209, 198, 198) rgb(103, 10, 10) lightpink; 
+    /* border:10px groove pink; */
+     margin:100px;
+     border-radius:30px;
+     background-color:rgb(229, 184, 191);
+}

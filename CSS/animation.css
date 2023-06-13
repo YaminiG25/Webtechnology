@@ -1,0 +1,39 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 10px groove black;
+    border-radius: 250px;
+    background-color: pink;
+    animation-name: yamini;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5s;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes yamini{
+     from{
+        background-color: pink;
+        border: 5px groove black;
+        
+    }
+    to{
+        background-color: rgb(12, 90, 23);
+        border: 5px dotted rgb(85, 14, 199);
+    } 
+    0%{
+        transform:translateX(0);
+    }
+    33%{
+        transform: translateY(100%);
+    }
+    66%{
+        transform:translate(100%) translateY(100%);
+    }
+    90%{
+        transform: translate(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}

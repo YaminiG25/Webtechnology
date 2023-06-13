@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .gp{
+        height: 200px;
+        width:200px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color: lightcoral;
+    }
+    .p{
+        height: 100px;
+        width:100px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color: plum;
+    }
+    .c{
+        height: 50px;
+        width:50px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:lightpink;
+    }
+</style>
+</head>
+<body>
+
+  <!-- div.gp{grandparent}>.p{parent}>div.{child} -->
+    <div class="gp">grandparent
+        <div class="p"> parent 
+            <div class="c"> child
+            </div>
+    </div>
+    </div>
+    <script src="eventpropagagtion.js"></script>
+</body>
+</html>

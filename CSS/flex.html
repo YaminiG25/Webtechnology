@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    margin:0;
+    background-color:lightblue;
+}
+#container{
+    border:6px solid rgb(5, 0, 0);
+    display:flex;
+    height:500px;
+    /* flex-direction:row-reverse; 
+     /* column-reverse,row,row-reverse  */
+    /* flex-wrap:wrap; 
+     unwrap */
+     justify-content: space-evenly ; 
+     /* flex-start,space-around,space-between,space-evenly */
+     align-items: baseline;
+     /* flex-start,flex-end,reverse,baseline*/
+
+}
+.flex-items{
+    height:200px;
+    width:100px;
+    color:white;
+    background-color: rgb(192, 234, 234);
+    border:1px solid black
+}
+.item1{
+    background-color:lightpink;
+    order:4;
+    flex-grow: 2;
+    
+}
+.item2{
+    background-color:palevioletred ;
+    order:2;
+    flex-grow:0.5;
+}
+.item3{
+    background-color: rgb(220, 15, 158);
+    order:3;
+    flex-grow:2;
+}
+.item4{
+    background-color:rgb(103, 6, 22);
+   /* padding :100px; */
+   order:1;
+   flex-grow:1;
+}
+    </style>
+    
+</head>
+<body>
+    <div id="container">
+        <div class="flex-items item1">Item1</div>
+        <div class="flex-items item2">Item2</div>
+        <div class="flex-items item3">Item3</div>
+        <div class="flex-items item4">Item4</div>
+    </div>
+</body>
+</html>

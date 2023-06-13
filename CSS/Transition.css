@@ -1,0 +1,25 @@
+div{
+    height:40px; 
+    width:1100px;
+    border: 20px groove rgb(60, 169, 164);
+    background-color: rgb(147, 9, 9) ;
+
+}
+#test{
+    height:100px;
+    width:200px;
+     border: 20px double rgb(224, 92, 123); 
+    
+    background-color: rgb(62, 9, 143) ;
+      position:relative;
+      left:400px;
+      top:150px;
+      transition: width 5s, height 1s;
+
+
+}
+#test:hover{
+ width: 600px;
+ height:400px;
+ background-color: rgb(8, 110, 76);
+}

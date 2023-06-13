@@ -1,0 +1,32 @@
+/* relative */
+/* #demo{
+    height: 600px;
+    width:600px;
+    border:10px solid rgb(7, 150, 150);
+    overflow: auto;
+    position:relative;
+    top:100px
+} */
+/* fixed */
+/* #demo{
+    height: 600px;
+    width:600px;
+    border:10px solid rgb(7, 150, 150);
+    overflow: auto;
+    position:fixed;
+    top:100px;
+    left:500px;
+} */
+/* absolute */
+#demo{
+    height: 600px;
+    width:600px;
+    border:10px solid rgb(7, 150, 150);
+    overflow: auto;
+    position:fixed;
+    top:100px;
+    left:400px;}
+    img{
+        position: fixed;
+        left: 300px;
+    }

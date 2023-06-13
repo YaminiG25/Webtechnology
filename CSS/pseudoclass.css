@@ -1,0 +1,101 @@
+/* a:link{
+    color:aqua;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: orangered;
+}
+div{
+    height:100px;
+    width:100px;
+    background-color: hsla(235, 89%, 48%, 0.5);
+    
+
+}
+div:hover{
+
+background-color: black;
+border-radius: 500px ;
+
+}
+h1{height:100px;
+    width:100px;
+    background-color:rgb(100,10, 20);
+    
+
+}
+h1:hover{
+
+background-color: brown;
+border-radius: 500px ;
+
+}
+h2{
+    
+    height:100px;
+    width:100px;
+    background-color:#99AABBCC;
+    
+
+}
+h2:hover{
+
+background-color: yellow;
+border-radius: 500px ;
+
+}
+    
+h3{
+    
+    height:100px;
+    width:100px;
+    background-color: rgba(500,0,0, 0.5);
+    
+
+}
+h3:hover{
+
+background-color: red;
+border-radius: 500px ;
+
+}
+h4{
+    
+    height:100px;
+    width:100px;
+    background-color:hsl(28, 76%, 20%);
+    
+
+}
+h4:hover{
+
+background-color: green;
+border-radius: 500px ;
+
+}
+
+    
+ */
+ /* div.demo p:first-child{
+   color: lightpink; 
+}
+div.demo p:last-child{
+    color:rgb(233, 17, 233);
+} 
+ div.demo p:nth-child(3){
+    color: blue;
+} */
+div.demo p:nth-last-child(1){
+    color: brown;
+} 
+/* div.demo p:first-of-type{
+    color:yellow;
+} 
+ div.demo p:last-of-type{
+    color:green;
+}  */

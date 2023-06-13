@@ -1,0 +1,31 @@
+/* #demo{
+    color: rgb(93, 165, 228);
+    font-size: 100px;
+}
+.test{
+    color: rgb(188, 126, 135);
+    font-size: 50px;
+}
+article{
+    color:aquamarine;
+    background-color: black ;
+    font-size: 50px;
+}
+article,pre,h6{
+ background-color: rgb(133, 95, 168);
+ font-style: italic;
+ font-size: 50px;
+}
+*{
+    background-color: aquamarine;
+    
+} */
+#demo{
+    color: rgb(93, 165, 228);
+    font-size: 100px;
+
+}
+.test{
+    color:blueviolet;
+    background-attachment:black ;
+}

@@ -1,0 +1,48 @@
+*{
+margin: 0;
+}
+nav{
+    display: flex;
+    background-color: #2874f0;
+    color:white;
+    justify-content:space-around;
+    list-style: none;
+    height:50px;
+}
+nav #flip{
+    position: relative;
+    top:5px;
+    left:130px;
+    font-size:27px;
+ 
+}
+
+nav svg{
+    position:absolute;
+    top:25px;
+
+
+}
+nav input{
+ position: relative;
+ top:10px;
+ /* left:-10px; */
+  right:60px; 
+ height:30px;
+ width:400px;
+
+}
+nav button{
+    position:relative;
+    width:70px;
+    top:15px;
+    height:30px;
+    left:-120px;
+}
+nav #Demo{
+    position: relative;
+    font-size: 17px;
+    top:22px;
+    left:-160px;
+    
+}
